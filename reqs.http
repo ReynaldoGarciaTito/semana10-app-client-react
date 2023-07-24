@@ -1,0 +1,14 @@
+@server = https://reynaldogarciatito-shiny-eureka-pxqqj4pwqqr3rw5x-8080.preview.app.github.dev/api
+
+### 
+GET {{server}}
+
+### 
+GET {{server}}/employees
+
+###
+POST {{server}}/employees
+Content-Type: application/json
+
+{"firstName": "Reynaldo", "lastName": "García Tito", "description": "semana 10"}
+
